@@ -10,28 +10,27 @@
 ------------
 
 #### File structure - EN
-> handler: API handler
->> order.py
->> 
->> collector.py
->
-
+```
+handler: API handler
+    order.py
+    collector.py
+```
 #### File structure - KR
-> handler: API 사용
->> order.py
->> 
->> collector.py
+```
+handler: API 사용
+    order.py
+    collector.py
+```
 ------------
 
-#### File description
-> order.py
->> market order
->> 
->> limit order : not completed yet
->
-> collector.py
->> tick : not completed yet
->>
->> minute
->>
->> day
+#### Functionality
+```
+order.py
+    market order
+    limit order : not completed yet
+
+collector.py
+    tick : not completed yet
+    minute
+    day
+```
